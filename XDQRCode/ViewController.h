@@ -1,4 +1,4 @@
-//
+ //
 //  ViewController.h
 //  XDQRCode
 //
@@ -11,6 +11,9 @@
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *scaningResultsLabel;
 
-
 @end
 
+@interface ViewController ()
+@property (copy, nonatomic) NSString *extentionTitle;
+
+@end
